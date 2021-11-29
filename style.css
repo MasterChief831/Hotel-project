@@ -1,0 +1,256 @@
+/* reset */
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing:border-box;
+}
+/*main Styling */
+html,body{
+  font-family: 'Segoe UI',sans-serif;
+  line-height: 1.7em;
+}
+a{
+  color: #333;
+text-decoration: none;
+
+}
+h1,h2,h3{
+  padding-bottom: 20px;
+
+}
+p{
+  margin: 10px 0;
+}
+/*navbar*/
+#navbar{
+  background: #333;
+  color: #fff;
+overflow: auto;
+  }
+  #navbar a{
+    color: #fff;
+  }
+  #navbar h1{
+  padding-top: 20px;
+  float: left;
+
+
+  }
+  #navbar ul{
+    list-style: none;
+    float: right;
+  }
+  #navbar li{
+    float: left;
+  }
+  #navbar ul li a{
+    display: block;
+    padding: 20px;
+    text-align: center;
+}
+  #navbar ul li a:hover,#navbar ul li a.current
+
+{
+    background: #444;
+    color: #f7c08a;
+  }
+  .container{
+    margin: auto;
+   max-width: 1100px;
+    overflow: auto;
+    padding: 0 20px;
+}
+/*showcase*/
+#showcase{
+  background: url("showcase.jpg") no-repeat;
+  height : 600px;
+  background-position: center;
+  background-size: cover;
+  }
+  #showcase .showcase-content{
+    color: #fff;
+    text-align: center;
+    padding-top: 170px;
+}
+#showcase .showcase-content h1{
+  font-size: 60px;
+  line-height: 1.2em;
+  }
+  .text-primary{
+    color: #f7c08a;
+  }
+.lead{
+  font-size: 20px;
+  font-weight: bold;
+}
+#showcase .showcase-content p{
+  padding-bottom: 20px;
+  line-height: 1.7em;
+}
+.btn{
+  display: inline-block;
+font-size: 18px;
+color: #fff;
+background: #333;
+padding: 13px 20px;
+border: none;
+cursor: pointer;
+}
+.btn:hover{
+  background: #f7c08a;
+  color: #333;
+}
+.btn-light{
+  background: #f4f4f4;
+  color:#333;
+}
+/*home info*/
+#home-info{
+  height: 400px;
+}
+#home-info .info-img{
+  float: left;
+  width: 50%;
+  background: url("photo-1.jpg") no-repeat;
+  min-height:100%;
+}
+#home-info .info-content{
+  float: right;
+  width: 50%;
+  height: 100%;
+  text-align: center;
+padding: 50px 30px;
+overflow: hidden;
+}
+.bg-dark{
+  background: #333;
+  color: #fff;
+}
+
+.bg-light{
+  background: #f4f4f4;
+  color: #f333;
+}
+.bg-primary{
+  color: #333;
+  background: #f7c08a;
+}
+#home-info .info-content p{
+  padding-bottom: 30px;
+}
+/*features */
+.box{
+  float:left;
+ width: 33.3%;
+  padding:50px;
+  text-align: center;
+
+}
+.clr{
+  clear: both;
+}
+.box i{
+  margin-bottom: 10px;
+}
+#main-footer{
+  text-align: center;
+  background: #444;
+  color: #fff;
+  padding: 20px;
+}
+.photo-2 {
+  min-height: 100%;
+  width: 50%;
+  float: right;
+}
+.photo-2 img{
+  width: 70%;
+  margin: auto;
+  display: block;
+  border-radius: 50%;
+}
+.info-left{
+  float: left;
+  width: 50%;
+
+}
+.py-1{padding: 10px 0}
+.py-2{padding: 20px 0}
+.py-3{padding: 30px 0}
+.tex{
+  font-size: 40px;
+}
+.about-photo{
+    background: url("test-bg.jpg") no-repeat;
+    height: 600px;
+    background-position: center;
+    background-size: cover;
+}
+.what-color{
+  color: #fff;
+  text-align: center;
+  padding: 100px;
+
+
+}
+.person-1 img{
+  border-radius: 100%;
+  width: 12%;
+}
+.person-1-right{
+  float: left ;
+}
+.person-1-content ,
+.person-1-right{
+  padding: 11px;
+  margin: 4px;
+}
+.person-1{
+  background: #f7c08a;
+margin: auto;
+padding: 2px;
+width: 66%;
+display: block;
+
+}
+
+.person-2 img{
+  border-radius: 100%;
+  width: 12%;
+}
+.person-2-right{
+  float: left ;
+}
+.person-2-content ,
+.person-2-right{
+  padding: 11px;
+  margin: 4px;
+}
+.person-2{
+  background: #f7c08a;
+margin: auto;
+padding: 2px;
+width: 66%;
+display: block;
+}
+
+/*contact form*/
+#contact-form .form-group{
+  margin-bottom: 20px;
+  }
+  #contact-form label{
+    display: block;
+    margin-bottom: 5px;
+  }
+  #contact-form input,#contact-form textarea{
+    width: 100%;
+    padding: 10px;
+    border: 1px #ddd solid;
+  }
+  #contact-form textarea{
+    height: 200px;
+}
+#contact-form input:focus,#contact-form textarea:focus{
+  outline: none;
+  border-color: #f7c08a;
+}
